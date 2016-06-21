@@ -1,0 +1,24 @@
+{
+  "name": "bowboosh-tools",
+  "version": "1.0.6",
+  "description": "Utilities for bowboosh boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "patch-release": "npm version patch && npm publish && git push --follow-tags"
+  },
+  "author": {
+    "name": "Jennifer Proust"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/proustibat/bowboosh-tools.git"
+  },
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "chokidar": "^1.5.2",
+    "gulp-util": "^3.0.7",
+    "yargs": "^4.7.1"
+  }
+}
